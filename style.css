@@ -1,0 +1,99 @@
+:root {
+    --very-dark: #2F3C47;
+    --dark: #4A5E70;
+    --blue: #80A2C2;
+    --light: #97BFE5;
+    --very-light: #dbecff;
+}
+
+
+h1 {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2 {
+    font-family: Play, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 1500px;
+    text-align: center;
+    background-color: #2F3C47;
+    color: #97BFE5;
+}
+
+.name h3 {
+    letter-spacing: 15px;
+}
+
+
+.path {
+    text-align: center;
+    background-image: linear-gradient(#dbecff, #2F3C47);
+}
+
+.path h2 {
+    padding: 150px 0 50px;
+    color: #4A5E70;
+}
+
+
+.smart {
+    width: 100%;
+    background-image: radial-gradient(#97BFE5, #fff);
+}
+
+.smart img {
+    margin: 10%;
+    width: 80%;
+}
+
+.run {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.run .shadow {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    transform: translateY(-200px);
+    background-color: transparent;
+    box-shadow: #020046 0 50px 1200px;
+}
+
+.run h2 {
+    position: absolute;
+    padding: 40px;
+    font-size: 60px;
+    top: 120px;
+    color: #4A5E70;
+}
+
