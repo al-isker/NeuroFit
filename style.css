@@ -97,3 +97,16 @@ img {
     color: #4A5E70;
 }
 
+
+.water {
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(#dbecff, #80A2C2);
+}
+
+.water h2 {
+    padding: 120px 30px 100px;
+    letter-spacing: 3px;
+}
+
+
