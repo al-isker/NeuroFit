@@ -21,6 +21,9 @@ h2 {
     font-weight: 400;
     font-size: 80px;
     letter-spacing: 1px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.5s ease-in-out;
 }
 
 h3 {
@@ -37,6 +40,9 @@ p {
 
 img {
     width: 100%;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.5s ease-in-out;
 }
 
 
@@ -85,6 +91,7 @@ img {
 
 .run .shadow {
     position: absolute;
+    z-index: 2;
     width: 100%;
     height: 200px;
     transform: translateY(-200px);
@@ -96,6 +103,7 @@ img {
     position: absolute;
     width: 80%;
     left: 10%;
+    z-index: 1;
     font-size: 60px;
     top: 120px;
     color: #4A5E70;
@@ -121,6 +129,7 @@ img {
 
 .smartphone .shadow {
     position: absolute;
+    z-index: 2;
     width: 100%;
     height: 200px;
     transform: translateY(-200px);
@@ -133,6 +142,7 @@ img {
     position: absolute;
     top: 60px;
     left: 10%;
+    z-index: 1;
 }
 
 footer {
@@ -148,4 +158,5 @@ footer {
 footer h2 {
     color: #97BFE5;
     font-weight: 500;
+    opacity: 1;
 }
